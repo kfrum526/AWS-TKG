@@ -13,4 +13,4 @@ After copying down you will need to run terraform init in each cluster directory
 4. Run terraform plan in each directory to make sure no errors
 5. Run terraform apply when ready to build infrastructre
 6. In ManagementCluster directory run tanzu mc create -file <path to file> (in this case mc-config-tkg.yaml)
-7....Currently working out an issue at this step
+7. ...Currently working out an issue at this step
