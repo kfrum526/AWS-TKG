@@ -7,10 +7,10 @@ with some slight alterations
 
 After copying down you will need to run terraform init in each cluster directory.
 
-Make sure terraform and VMware TKG/Tanzu cli is on box
-Copy git repo
-Run terraform init in both directories
-Run terraform plan in each directory to make sure no errors
-Run terraform apply when ready to build infrastructre
-In ManagementCluster directory run tanzu mc create -file <path to file> (in this case mc-config-tkg.yaml)
-...Currently working out an issue at this step
+1. Make sure terraform and VMware TKG/Tanzu cli is on box
+2. Copy git repo
+3. Run terraform init in both directories
+4. Run terraform plan in each directory to make sure no errors
+5. Run terraform apply when ready to build infrastructre
+6. In ManagementCluster directory run tanzu mc create -file <path to file> (in this case mc-config-tkg.yaml)
+7....Currently working out an issue at this step
