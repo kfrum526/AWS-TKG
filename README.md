@@ -1,6 +1,9 @@
 # AWS-TKG
 TKG Infra and TKG build test
 
+The purpose of this is to test in a personal lab on how TKG functions in the public cloud to possibly translate that to a airgapped cloud environment
+with some slight alterations
+
 
 After copying down you will need to run terraform init in each cluster directory.
 
